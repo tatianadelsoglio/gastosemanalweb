@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Error from "./Error"
 
-const pregunta = () => {
+const pregunta = ({ guardarPresupuesto, guardarRestante }) => {
 
     //definir el state
     const [cantidad, guardarCantidad] = useState(0);
@@ -31,6 +31,8 @@ y cuando el número esta en color azul quiere decir que es de tipo entero*/
 
         //validación aprobada
         guardarError(false);
+        guardarPresupuesto(cantidad);
+        guardarRestante(cantidad);
 
     }
 
