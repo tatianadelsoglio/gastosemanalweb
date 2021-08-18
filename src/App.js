@@ -10,8 +10,9 @@ function App() {
   // como props las propiedades "gruardarPresupuesto" con su mismo nombre como parametro de valor entre llaves, y "guardarRestante" al igual
   //al igual manerea que el anterior. Y luego extraemos esas misma propiedades como props para Pregunta.js 
 
-  const [presupuesto, guardarPresupuesto] = useSate(0);
+  const [presupuesto, guardarPresupuesto] = useState(0);
   const [restante, guardarRestante] = useState(0);
+  const [mostrarPregunta, actualizarPregunta] = useState(true);
 
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
             
             guardarPresupuesto={guardarPresupuesto}
             guardarRestante={guardarRestante}
+            actualizarPregunta={actualizarPregunta}
             
             />
 

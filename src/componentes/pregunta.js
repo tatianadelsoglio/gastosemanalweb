@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Error from "./Error"
 
-const pregunta = ({ guardarPresupuesto, guardarRestante }) => {
+const Pregunta = ({ guardarPresupuesto, guardarRestante, actualizarPregunta }) => {
 
     //definir el state
     const [cantidad, guardarCantidad] = useState(0);
@@ -33,6 +33,7 @@ y cuando el número esta en color azul quiere decir que es de tipo entero*/
         guardarError(false);
         guardarPresupuesto(cantidad);
         guardarRestante(cantidad);
+        actualizarPregunta(false);
 
     }
 
@@ -69,4 +70,4 @@ y cuando el número esta en color azul quiere decir que es de tipo entero*/
 
 }
 
-export default pregunta;
+export default Pregunta;
