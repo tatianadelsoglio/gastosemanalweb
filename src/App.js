@@ -39,7 +39,7 @@ function App() {
 
     }
 
-  }, [gasto])
+  }, [gasto, crearGasto, gastos, restante])
 
 
   return (
