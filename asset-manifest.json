@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gastosemanalweb/static/css/main.b61dd0da.chunk.css",
+    "main.js": "/gastosemanalweb/static/js/main.b7b32c13.chunk.js",
+    "main.js.map": "/gastosemanalweb/static/js/main.b7b32c13.chunk.js.map",
+    "runtime-main.js": "/gastosemanalweb/static/js/runtime-main.56b971b1.js",
+    "runtime-main.js.map": "/gastosemanalweb/static/js/runtime-main.56b971b1.js.map",
+    "static/js/2.866cf6af.chunk.js": "/gastosemanalweb/static/js/2.866cf6af.chunk.js",
+    "static/js/2.866cf6af.chunk.js.map": "/gastosemanalweb/static/js/2.866cf6af.chunk.js.map",
+    "static/js/3.2a0fec3c.chunk.js": "/gastosemanalweb/static/js/3.2a0fec3c.chunk.js",
+    "static/js/3.2a0fec3c.chunk.js.map": "/gastosemanalweb/static/js/3.2a0fec3c.chunk.js.map",
+    "index.html": "/gastosemanalweb/index.html",
+    "static/css/main.b61dd0da.chunk.css.map": "/gastosemanalweb/static/css/main.b61dd0da.chunk.css.map",
+    "static/js/2.866cf6af.chunk.js.LICENSE.txt": "/gastosemanalweb/static/js/2.866cf6af.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.56b971b1.js",
+    "static/js/2.866cf6af.chunk.js",
+    "static/css/main.b61dd0da.chunk.css",
+    "static/js/main.b7b32c13.chunk.js"
+  ]
+}
